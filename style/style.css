@@ -1,0 +1,499 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+    background: #4D40B5;
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    justify-content:center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.add-btn {
+    background: white;
+    color: #4D40B5;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+
+/* Search */
+.search-section {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+    max-width: 1000px;
+}
+
+.search-input {
+    display: flex;
+    align-items: center;
+    background: #f5f5f5;
+    border-radius: 8px;
+    padding: 10px;
+    flex: 1;
+}
+.search-input i{
+    color: #999CA0;
+}
+
+.search-input input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 16px;
+    flex: 1;
+    padding-left: 10px;
+    color: #555;
+}
+
+.sliders-btn{
+    background:#F5F5F5;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.search-btn {
+    background: #4D40B5;
+    color: white;
+    border: none;
+    padding: 13px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* main */
+
+.hero-box{
+    display: flex;
+}
+
+.main-box{
+    display: flex;
+    gap: 5px;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+.main-box h3{
+    font-family: SF Pro Display;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #999CA0;
+}
+
+.main-box .announcement{
+    font-weight: 600;
+    color: #000000;
+}
+
+.main-box h3 i{
+    font-size: 9px;
+}
+
+/* about */
+
+.about-box{
+    position: relative;
+    left: 150px;
+}
+
+.about-img img{
+    width: 560px;
+    height: 400px;
+}
+
+.about-img .bi-chevron-right {
+    position: absolute;
+    top:480px;
+    left: 910px;
+    color:  #FFFFFF;    
+}
+
+.about-img .bi-chevron-left{
+    position: absolute;
+    top:480px;
+    left: 400px;
+    color:  #FFFFFF;    
+}
+
+.about-mini-img img{
+    width: 184px;
+    height: 140px;
+
+}
+
+/* about info */
+
+.title{
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 115px;
+    left: 10px;
+    bottom: 27px;
+}
+
+.title h2{
+    width: 280px;
+    height: 40px;
+    font-family: SF Pro Display;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    vertical-align: middle;
+
+}
+
+.title i{
+    color: #999CA0;
+    font-size: 30px;
+}
+
+.price{
+    gap: 20px;
+    left: 10px;
+    bottom: 50px;
+}
+
+.price h3{
+    width: 168px;
+    height: 32px;
+    font-family: SF Pro Display;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #4E46B4;
+
+}
+
+.price h4{
+    width: 59px;
+    height: 24px;
+    font-family: SF Pro Display;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    color: #4AD15F;
+    background-color:  #d5f0d9;
+    border-radius: 6px;
+}
+
+.location{
+    gap: 0px;
+    bottom: 80px;
+}
+
+.location i{
+    font-size: 15px;
+    width: 11.25;
+    height: 14.25;
+    top: 4.88px;
+    left: 6.38px;
+    border-width: 1px;
+
+}
+
+.location h6{
+    width: 221px;
+    height: 24px;
+    font-family: SF Pro Display;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+}
+
+.button{
+    gap: 10px;
+    bottom: 70px;
+}
+
+.button button{
+    width: 210px;
+    height: 48px;
+    gap: 12px;
+    border-width: 1px;
+    border-radius: 8px;
+    border: 1px solid #4E46B4;
+    font-size: 18px;
+}
+
+.button i{
+    width: 21.5px;
+    height: 21.5px;
+    color: #4E46B4;
+    font-size: 18px;
+}
+
+.first-button{
+    background-color: white;
+}
+
+.second-button{
+    color: white;
+    background-color: #4D40B5;
+}
+
+.phone-info {
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+    border: none;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.item .color{
+ color: #999CA0;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+.blue {
+    color: blue;
+    font-weight: bold;
+}
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+/* content */
+
+.content-box{
+    max-width: 1000px;
+}
+
+.tabs {
+    display: flex;
+    position: relative;
+    font-weight: 300;
+    bottom: 30px;
+}
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #666;
+}
+
+.tab.active {
+    color:#4E46B4;    
+    border-bottom: 2px solid #4E46B4;;
+}
+.content {
+    position: relative;
+    bottom: 25px;
+    color: #333;
+    font-family: SF Pro Display;
+    font-weight: 400;
+    font-size: 14.5px;
+    line-height: 24px;
+    letter-spacing: 0px;    
+    vertical-align: middle;
+
+}
+
+
+/* (Ads) */
+.ads {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.ads h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.ads-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    justify-content: center;
+}
+
+.ad-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+}
+
+.ad-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.ad-card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.ad-card p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+
+/* (Footer) */
+footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-box{
+    display: flex;
+    justify-content:space-between;
+}
+
+.footer-logo {
+    font-size: 24px;
+    align-items: start;
+    font-weight:500;
+    color: #5a48c4;
+}
+
+.footer-links {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 10px;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-column a:hover {
+    color: #5a48c4;
+}
+
+.footer-social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+}
+
+.footer-social img {
+    width: 32px;
+    height: 32px;
+    transition: opacity 0.3s;
+}
+
+.footer-social img:hover {
+    opacity: 0.7;
+}
+
+.footer-social .app-store{
+    position: relative;
+    top: 23px;
+    width: 128px;
+    height: 38px;
+    
+}
+
+.footer-social .icon{
+    border-radius: 8px;
+
+}
